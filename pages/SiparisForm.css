@@ -1,0 +1,230 @@
+
+.siparis-page {
+  font-family: 'Barlow', sans-serif;
+  color: #292929;
+  background-color: #FAF7F2;
+}
+
+.siparis-header {
+  background-color: #CE2829;
+  padding: 2rem;
+  text-align: center;
+}
+
+.siparis-header h1 {
+  color: white;
+  font-family: 'Quattrocento', serif;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+
+.siparis-container {
+  background-color: #FAF7F2;
+  padding: 2rem 0;
+}
+
+.siparis-banner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.banner-content nav {
+  font-size: 0.9rem;
+  color: #5F5F5F;
+  margin-bottom: 2rem;
+}
+
+.banner-content nav span {
+  color: #CE2829;
+  font-weight: bold;
+}
+
+.banner-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.rating {
+  font-size: 0.9rem;
+  color: #5F5F5F;
+  display: flex;
+  gap: 1rem;
+}
+
+.description {
+  color: #5F5F5F;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+
+.main-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.siparis-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.secim-block h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.required { color: #CE2829; }
+.error-text {
+  color: #CE2829;
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+
+.size-options {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.size-label {
+  width: 45px;
+  height: 45px;
+  background: #FAF7F2;
+  border: 1px solid #FAF7F2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.size-label.active {
+  background: #FDC913;
+}
+
+.size-label input { display: none; }
+
+
+.dough-select {
+  padding: 0.8rem;
+  border-radius: 5px;
+  background: #FAF7F2;
+  border: none;
+  width: 200px;
+}
+
+
+.malzemeler-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.malzeme-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+
+.malzeme-label input {
+  width: 20px;
+  height: 20px;
+  accent-color: #FDC913;
+}
+
+
+.siparis-note textarea {
+  width: 90%;
+  height: 100px;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: #FAF7F2;
+  margin-top: 1rem;
+}
+
+.divider {
+  border: 0.5px solid #ccc;
+  margin: 2rem 0;
+}
+
+
+.button-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+}
+
+.counter button {
+  background: #FDC913;
+  border: none;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.count-display {
+  padding: 0 1.5rem;
+  font-weight: bold;
+}
+
+.toplam-siparis {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  padding: 1.5rem;
+}
+
+.toplam-secim {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  font-weight: bold;
+  color: #5F5F5F;
+}
+
+.toplam {
+  color: #CE2829;
+}
+
+.submit-btn {
+  width: 100%;
+  background: #FDC913;
+  border: none;
+  padding: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.submit-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
